@@ -15,7 +15,229 @@ body {
   margin-left: auto;
 }
 
+.text-block-82 {
+  margin-top: 21px;
+  font-family: Circular, sans-serif;
+  font-size: 30px;
+}
 
+.nav-link-50 {
+  font-family: Circular, sans-serif;
+  font-size: 18px;
+}
+
+.w-nav-link {
+  position: relative;
+  display: inline-block;
+  vertical-align: top;
+  text-decoration: none;
+  color: #222222;
+  padding: 20px;
+  text-align: left;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.image-2 {
+  display: block;
+  margin-top: 147px;
+  margin-right: auto;
+  margin-left: auto;
+  padding-left: 0px;
+  border-radius: 1000px;
+  background-color: #0c0c0c;
+  background-image: url(https://d3e54v103j8qbb.cloudfront.net/img/example-bg.png);
+  background-position: 0px 0px;
+  background-size: 125px;
+  opacity: 0.89;
+  -webkit-filter: grayscale(100%);
+  filter: grayscale(100%);
+}
+
+.hero-heading.typed-text {
+  margin-top: 167px;
+  font-family: Circular, sans-serif;
+}
+
+.hero-heading {
+  font-size: 38px;
+  line-height: 42px;
+}
+
+h1 {
+  display: block;
+  /* font-size: 2em; */
+  margin-block-start: 0.67em;
+  margin-block-end: 0.67em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  /* font-weight: bold; */
+}
+
+.paragraph-5 {
+  /* display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox; */
+  display: flex;
+  margin-top: 31px;
+  margin-right: auto;
+  margin-left: auto;
+  padding-right: 0px;
+  padding-left: 0px;
+  -webkit-box-pack: start;
+  /* -webkit-justify-content: flex-start; */
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+  -webkit-box-align: center;
+  /* -webkit-align-items: center; */
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-flex: 0;
+  /* -webkit-flex: 0 auto;
+  -ms-flex: 0 auto; */
+  flex: 0 auto;
+  font-family: Circular, sans-serif;
+  color: #333;
+  font-size: 21px;
+  line-height: 25px;
+  font-weight: 500;
+}
+
+p {
+  margin-top: 0;
+  margin-bottom: 10px;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+}
+
+.image-35 {
+  margin-left: -5px;
+}
+
+.image-34 {
+  margin-left: -3px;
+}
+
+img {
+  max-width: 100%;
+  vertical-align: middle;
+  display: inline-block;
+}
+
+.w-col-6 {
+  width: 50%;
+}
+
+.w-col {
+  position: relative;
+  float: left;
+  /* width: 100%; */
+  min-height: 1px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.section-title {
+  margin-top: 75px;
+  padding-left: 0px;
+  font-family: 'Monosten pro', sans-serif;
+  color: #333;
+  font-size: 25px;
+  line-height: 50px;
+  font-weight: 600;
+}
+
+.paragraph-10 {
+  font-family: Circular, sans-serif;
+  font-size: 20px;
+  line-height: 22px;
+  font-weight: 400;
+}
+
+.container-6 {
+  position: relative;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 90%;
+  max-width: 1000px;
+  min-height: 200px;
+  margin-top: -50px;
+  margin-right: auto;
+  margin-left: auto;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: stretch;
+  -webkit-align-items: stretch;
+  -ms-flex-align: stretch;
+  align-items: stretch;
+}
+
+.link-11:visited {
+  color: #f3b1af;
+} 
+
+.link-11 {
+  display: inline;
+  margin-top: 21px;
+  margin-left: 1px;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -webkit-box-align: start;
+  -webkit-align-items: flex-start;
+  -ms-flex-align: start;
+  align-items: flex-start;
+  -webkit-align-content: space-between;
+  -ms-flex-line-pack: justify;
+  align-content: space-between;
+  font-family: Circular, sans-serif;
+  color: #f3b1af;
+  font-size: 20px;
+  font-weight: 400;
+  text-align: left;
+  text-decoration: none;
+}
+
+.html-embed-8 {
+  margin-top: 20px;
+  margin-left: 0px;
+  background-color: transparent;
+  text-align: center;
+}
+
+.embed-page {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 12px;
+  height: 100vh;
+  width: 100vw;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  text-align: center;
+}
 
 /* device responiveness */
 
