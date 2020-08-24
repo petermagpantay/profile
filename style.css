@@ -50,6 +50,11 @@ body {
   z-index: 1000;
 }
 
+.w-container .w-row {
+  margin-left: -10px;
+  margin-right: -10px;
+}
+
 .nav-wrapper {
   position: fixed;
   left: 30px;
