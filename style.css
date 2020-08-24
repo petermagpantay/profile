@@ -38,6 +38,39 @@ body {
   margin-right: auto;
 }
 
+.navbar {
+  margin-top: -11px;
+  margin-bottom: 14px;
+  background-color: #fff;
+}
+
+.w-nav {
+  position: relative;
+  background: #dddddd;
+  z-index: 1000;
+}
+
+.nav-wrapper {
+  position: fixed;
+  left: 30px;
+  top: 30px;
+  z-index: 9999;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 60px;
+  height: 60px;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
 .image-2 {
   display: block;
   margin-top: 147px;
