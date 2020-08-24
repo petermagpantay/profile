@@ -1,63 +1,23 @@
-@import url('https://fonts.googleapis.com/css?family=Open+Sans|Poppins:400,700&display=swap');
-
-.btn {
-  color: white;
-  background-color: #3A506B;
-  padding: 16px 24px;
-  margin-top: 24px;
-  display: inline-block;
-}
-
-.btn:hover {
-  background-color: pink;
-}
-
-#navigation li {
-  font-size: 40px;
-}
+@import url('https://fonts.googleapis.com/css?family=Open+Sans|Inter:400,700&display=swap');
 
 body {
-  background-color: #3A506B;
-  font-family: 'Open Sans';
+  font-family: Inter;
+  color: #333;
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: 500;
 }
 
-h1, h2 {
-  font-family: 'Poppins';
-  color: #3A506B;
+.container-10 {
+  width: auto;
+  margin-top: 33px;
+  margin-right: auto;
+  margin-left: auto;
 }
 
-a {
-  color: #3A506B;
-  text-decoration: none;
-}
 
-ul {
-  list-style: none;
-  padding: 0;
-}
 
-ul li {
-  display: inline;
-  padding: 0 16px;
-}
-
-img {
-  border-radius: 50%;
-}
-
-.container {
-  background-color: white;
-  padding: 40px;
-  width: 600px;
-  margin: 28px auto;
-  text-align: center;
-  border-radius: 5px;
-}
-
-.fab {
-  color: p#3A506B;
-  font-size: 36px;
-}
+/* device responiveness */
 
 @media (max-width: 960px) {
   /* For a screen < 960px, this CSS will be read */
