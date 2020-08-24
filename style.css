@@ -16,6 +16,10 @@ body {
   margin-left: auto;
 }
 
+div {
+  display: block;
+}
+
 .text-block-82 {
   margin-top: 21px;
   font-family: Circular, sans-serif;
@@ -223,7 +227,7 @@ e
 }
 
 .link-11:visited {
-  color: #00334e;
+  color: #318fb5;
 } 
 
 .link-11 {
@@ -250,7 +254,7 @@ e
   -ms-flex-line-pack: justify;
   align-content: space-between;
   font-family: Circular, sans-serif;
-  color: #00334e;
+  color: #318fb5;
   font-size: 20px;
   font-weight: 400;
   text-align: left;
