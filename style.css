@@ -9,6 +9,15 @@ body {
   font-weight: 500;
 }
 
+/* navbar section */
+.logo {
+  color: #318fb5;
+  font-size: 30px;
+  margin-top: 21px;
+}
+
+
+/* currently section */
 .container-10 {
   width: auto;
   margin-top: 33px;
