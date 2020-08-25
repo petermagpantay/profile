@@ -12,48 +12,17 @@ body {
 /* navbar section */
 .logo {
   color: #318fb5;
-  font-size: 30px;
-  margin-top: 21px;
-}
-
-
-/* currently section */
-.container-10 {
-  width: auto;
-  margin-top: 33px;
-  margin-right: auto;
-  margin-left: auto;
-}
-
-div {
-  display: block;
-}
-
-.text-block-82 {
-  margin-top: 21px;
   font-family: Circular, sans-serif;
   font-size: 30px;
+  margin-top: 21px;
+  font-weight: bold;
 }
 
-.link-111.w--current:visited {
-  color: #318fb5;
-}
-
-.nav-link-50 {
-  font-family: Circular, sans-serif;
-  font-size: 18px;
-}
-
-.w-nav-link {
-  position: relative;
-  display: inline-block;
-  vertical-align: top;
-  text-decoration: none;
+.nav-link {
   color: #222222;
+  font-size: 18px;
   padding: 20px;
-  text-align: left;
-  margin-left: auto;
-  margin-right: auto;
+  font-family: Circular, sans-serif;
 }
 
 .navbar {
@@ -62,63 +31,27 @@ div {
   background-color: #fff;
 }
 
-.w-nav {
-  position: relative;
-  background: #dddddd;
-  z-index: 1000;
+
+/* avatar-bio section */
+.avatar-bio {
+  margin-top: 72px;
+  margin-bottom: 72px;
 }
 
-.w-container .w-row {
-  margin-left: -10px;
-  margin-right: -10px;
-}
-
-.nav-wrapper {
-  position: fixed;
-  left: 30px;
-  top: 30px;
-  z-index: 9999;
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  width: 60px;
-  height: 60px;
-  -webkit-box-pack: center;
-  -webkit-justify-content: center;
-  -ms-flex-pack: center;
-  justify-content: center;
-  -webkit-box-align: center;
-  -webkit-align-items: center;
-  -ms-flex-align: center;
-  align-items: center;
-}
-
-.image-2 {
+.img-profile {
   display: block;
-  margin-top: 147px;
   margin-right: auto;
   margin-left: auto;
-  padding-left: 0px;
   border-radius: 1000px;
   background-color: #0c0c0c;
-  background-image: url(https://d3e54v103j8qbb.cloudfront.net/img/example-bg.png);
   background-position: 0px 0px;
   background-size: 125px;
   opacity: 0.89;
-  -webkit-filter: grayscale(100%);
-  filter: grayscale(100%);
 }
 
-.hero-heading.typed-text {
-  margin-top: 167px;
-  font-family: Circular, sans-serif;
-}
-
-.hero-heading {
-  font-size: 38px;
-  line-height: 42px;
-}
+/* .img-fluid {
+  height: auto;
+} */
 
 h1 {
   display: block;
@@ -130,56 +63,39 @@ h1 {
   font-weight: bold;
 }
 
-.paragraph-5 {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
+.hero-heading.typed-text {
+  margin-top: 80px;
+  font-family: Circular, sans-serif;
+}
+
+.hero-heading {
+  font-size: 38px;
+  line-height: 42px;
+}
+
+.img-linkedin {
+  margin-left: -5px;
+}
+
+.img-twitter {
+  margin-left: -3px;
+}
+
+.paragraph-1 {
   display: flex;
   margin-top: 31px;
   margin-right: auto;
   margin-left: auto;
   padding-right: 0px;
   padding-left: 0px;
-  -webkit-box-pack: start;
-  -webkit-justify-content: flex-start;
-  -ms-flex-pack: start;
   justify-content: flex-start;
-  -webkit-box-align: center;
-  -webkit-align-items: center;
-  -ms-flex-align: center;
   align-items: center;
-  -webkit-box-flex: 0;
-  -webkit-flex: 0 auto;
-  -ms-flex: 0 auto;
   flex: 0 auto;
   font-family: Circular, sans-serif;
   color: #333;
   font-size: 21px;
   line-height: 25px;
   font-weight: 500;
-}
-
-p {
-  margin-top: 0;
-  margin-bottom: 10px;
-  margin-block-start: 1em;
-  margin-block-end: 1em;
-  margin-inline-start: 0px;
-  margin-inline-end: 0px;
-}
-
-.image-35 {
-  margin-left: -5px;
-}
-
-.image-34 {
-  margin-left: -3px;
-}
-
-img {
-  max-width: 100%;
-  vertical-align: middle;
-  display: inline-block;
 }
 
 .w-col-6 {
@@ -189,11 +105,12 @@ img {
 .w-col {
   position: relative;
   float: left;
-e
   min-height: 1px;
   padding-left: 10px;
   padding-right: 10px;
 }
+
+/* current, previous and stay updated sections */
 
 .section-title {
   margin-top: 75px;
@@ -205,7 +122,7 @@ e
   font-weight: 600;
 }
 
-.paragraph-10 {
+.paragraph-2 {
   font-family: Circular, sans-serif;
   font-size: 20px;
   line-height: 22px;
@@ -214,9 +131,6 @@ e
 
 .container-6 {
   position: relative;
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
   display: flex;
   width: 90%;
   max-width: 1000px;
@@ -224,47 +138,24 @@ e
   margin-top: -50px;
   margin-right: auto;
   margin-left: auto;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-  -webkit-flex-direction: column;
   -ms-flex-direction: column;
   flex-direction: column;
-  -webkit-box-pack: center;
-  -webkit-justify-content: center;
-  -ms-flex-pack: center;
   justify-content: center;
-  -webkit-box-align: stretch;
-  -webkit-align-items: stretch;
-  -ms-flex-align: stretch;
   align-items: stretch;
 }
 
-.link-11:visited {
+.link:visited {
   color: #318fb5;
 } 
 
-.link-11 {
+.link {
   display: inline;
   margin-top: 21px;
   margin-left: 1px;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-  -webkit-flex-direction: row;
-  -ms-flex-direction: row;
   flex-direction: row;
-  -webkit-box-pack: center;
-  -webkit-justify-content: center;
-  -ms-flex-pack: center;
   justify-content: center;
-  -webkit-flex-wrap: wrap;
-  -ms-flex-wrap: wrap;
   flex-wrap: wrap;
-  -webkit-box-align: start;
-  -webkit-align-items: flex-start;
-  -ms-flex-align: start;
   align-items: flex-start;
-  -webkit-align-content: space-between;
-  -ms-flex-line-pack: justify;
   align-content: space-between;
   font-family: Circular, sans-serif;
   color: #318fb5;
@@ -274,26 +165,45 @@ e
   text-decoration: none;
 }
 
-.html-embed-8 {
-  margin-top: 20px;
-  margin-left: 0px;
-  background-color: transparent;
-  text-align: center;
+img {
+  max-width: 100%;
+  vertical-align: middle;
+  display: inline-block;
 }
 
-.embed-page {
-  position: relative;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  padding: 12px;
-  height: 100vh;
-  width: 100vw;
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
-  box-sizing: border-box;
-  text-align: center;
+.w-container .w-row {
+  margin-left: -10px;
+  margin-right: -10px;
 }
+
+.stay-updated {
+  margin-bottom: 72px;
+}
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /* device responiveness */
 
